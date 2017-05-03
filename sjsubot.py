@@ -26,5 +26,14 @@ def handle_command(command, channel):
         response = "Sure...write some more code then I can do that!"
     slack_client.api_call("chat.postMessage", channel=channel,
                           text=response, as_user=True)
+    
+    def parse_slack_output(slack_rtm_output):
+    """
+        The Slack Real Time Messaging API is an events firehose.
+        this parsing function returns None unless a message is
+        directed at the Bot, based on its ID.
+    """
+    output_list = slack_rtm_output
+    print "In slack output ********"
 
 
