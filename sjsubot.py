@@ -45,3 +45,18 @@ def handle_command(command, channel):
     return None, None
 
 
+    if __name__ == "__main__":
+        READ_WEBSOCKET_DELAY = 1 # 1 second delay between reading from firehose
+        print "In main ********"
+    if slack_client.rtm_connect():
+        print "SJSUBot connected and running!"
+        while True:
+            command, channel = parse_slack_output(slack_client.rtm_read())
+            if command and channel:
+                handle_command(command, channel)
+            time.sleep(READ_WEBSOCKET_DELAY)
+    else:
+        print "Connection failed. Invalid Slack token or bot ID?"
+
+
+
