@@ -117,7 +117,39 @@
       ],
       "description": null
    },
-   
+    {
+      "intent": "Class_Timing",
+      "created": "2017-05-04T23:14:13.745Z",
+      "updated": "2017-05-05T07:44:01.463Z",
+      "examples": [
+        {
+          "text": "class timing for CMPE 202?",
+          "created": "2017-05-04T23:24:27.524Z",
+          "updated": "2017-05-04T23:24:27.524Z"
+        },
+        {
+          "text": "class timing for cmpe 272?",
+          "created": "2017-05-04T23:14:49.404Z",
+          "updated": "2017-05-05T07:44:01.463Z"
+        },
+        {
+          "text": "Class timing for cmpe 273 section 1?",
+          "created": "2017-05-04T23:16:04.827Z",
+          "updated": "2017-05-04T23:16:52.350Z"
+        },
+        {
+          "text": "Class timing for cmpe 281?",
+          "created": "2017-05-04T23:22:53.660Z",
+          "updated": "2017-05-04T23:22:53.660Z"
+        },
+        {
+          "text": "Class timing for Enterprise Distributed Systems?",
+          "created": "2017-05-04T23:22:23.509Z",
+          "updated": "2017-05-04T23:26:58.220Z"
+        }
+      ],
+      "description": null
+    },
   ],
   "workspace_id": "60141f9f-b28b-4012-91b3-43213f2d439b",
   "counterexamples": []
