@@ -1,0 +1,124 @@
+{
+  "name": "SJSUChatBot",
+  "created": "2017-05-04T14:41:21.034Z",
+  "intents": [
+    {
+      "intent": "anything_else",
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "examples": [],
+      "description": null
+    },
+   
+    {
+      "intent": "Email_ID",
+      "created": "2017-05-04T23:44:55.021Z",
+      "updated": "2017-05-05T20:10:39.615Z",
+      "examples": [
+        {
+          "text": "email id of 202 prof?",
+          "created": "2017-05-05T20:10:39.615Z",
+          "updated": "2017-05-05T20:10:39.615Z"
+        },
+        {
+          "text": "Email Id of Prof 202?",
+          "created": "2017-05-05T20:03:27.982Z",
+          "updated": "2017-05-05T20:03:27.982Z"
+        },
+        {
+          "text": "EmailID of Professor Jerry Gao ?",
+          "created": "2017-05-04T23:44:55.021Z",
+          "updated": "2017-05-04T23:44:55.021Z"
+        },
+        {
+          "text": "EmailID of Professor Paul ?",
+          "created": "2017-05-04T23:44:55.021Z",
+          "updated": "2017-05-04T23:44:55.021Z"
+        },
+        {
+          "text": "EmailID of Professor Rakesh Ranjan ?",
+          "created": "2017-05-04T23:44:55.021Z",
+          "updated": "2017-05-04T23:44:55.021Z"
+        },
+        {
+          "text": "EmailID of Professor Sithu ?",
+          "created": "2017-05-04T23:44:55.021Z",
+          "updated": "2017-05-04T23:44:55.021Z"
+        },
+        {
+          "text": "Email id of prof paul?",
+          "created": "2017-05-05T20:03:44.169Z",
+          "updated": "2017-05-05T20:03:44.169Z"
+        },
+        {
+          "text": "EmailID of Simon Shim ?",
+          "created": "2017-05-05T00:06:15.863Z",
+          "updated": "2017-05-05T00:06:15.863Z"
+        }
+      ],
+      "description": null
+    },
+ 
+    {
+      "intent": "greetings",
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "examples": [
+        {
+          "text": "Good Afternoon",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Good Evening",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Good Morning",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Hello, How are you?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "helloz",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "hellozz",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Hellozzzz",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Hey!",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Hi!",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "How you doing?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        }
+      ],
+      "description": null
+   },
+   
+  ],
+  "workspace_id": "60141f9f-b28b-4012-91b3-43213f2d439b",
+  "counterexamples": []
+}
