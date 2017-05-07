@@ -150,6 +150,102 @@
       ],
       "description": null
     },
+     {
+      "intent": "Instructor",
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-05T03:41:12.304Z",
+      "examples": [
+      {
+          "text": "Instructor for CMPE 273?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+      },
+      {
+          "text": "Professor of 273?",
+          "created": "2017-05-05T03:41:12.304Z",
+          "updated": "2017-05-05T03:41:12.304Z"
+        },
+        {
+          "text": "Who is the instructor for 273 Enterprise Distributed Systems?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Who is the instructor for CMPE 273?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Who is the instructor for CMPE 273 - Enterprise Distributed Systems?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Who is the instructor for Enterprise Distributed Systems?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "who takes 273",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "who takes cmpe 273?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Who teaches CMPE 202?",
+          "created": "2017-05-04T23:02:07.345Z",
+          "updated": "2017-05-04T23:02:07.345Z"
+        },
+        {
+          "text": "Who teaches cmpe273?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "Prerequisites",
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "examples": [
+        {
+          "text": "Prerequisite for CMPE 202?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Prerequisite for CMPE 273?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "What are the prerequisites for Enterprise Distributed Systems?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "What is the prerequisite for CMPE 273?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "What is the prerequisite for CMPE 273 - Enterprise Distributed Systems?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "What is the prerequisite for Enterprise Distributed Systems?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        }
+      ],
+      "description": null
+    },
   ],
   "workspace_id": "60141f9f-b28b-4012-91b3-43213f2d439b",
   "counterexamples": []
