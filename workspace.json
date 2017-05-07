@@ -364,7 +364,31 @@
         }
       ],
       "description": null
-    }
+    },
+    {
+      "entity": "Professors",
+      "values": [
+        {
+          "value": "Paul Nguyen",
+          "created": "2017-05-05T02:16:34.435Z",
+          "updated": "2017-05-05T20:12:16.115Z",
+          "metadata": null,
+          "synonyms": [
+            "202 Prof.",
+            "202 Professor",
+            "202 Teacher",
+            "281 Prof.",
+            "281 Professor",
+            "281 Teacher",
+            "Nguyen",
+            "Paul",
+            "Prof 202",
+            "Prof 281",
+            "prof. paul",
+            "Prof. Paul Nguyen",
+            "teacher 202"
+          ]
+        },
   ],
   "workspace_id": "60141f9f-b28b-4012-91b3-43213f2d439b",
   "counterexamples": []
