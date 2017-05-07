@@ -246,6 +246,77 @@
       ],
       "description": null
     },
+        {
+      "intent": "Project",
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "examples": [
+        {
+          "text": "Project presentation for cmpe 273 section 1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "Project presentation for Enterprise Distributed Systems section 1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "when is the project presentation for cmpe 273 - Enterprise Distributed systems?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "When is the project presentation for cmpe 273 section 1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "When is the project presentation for Sithu's Enterprise Distributed Systems ?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "schedule",
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "examples": [
+        {
+          "text": "What is the course schedule for week 1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "What is the course schedule for week 2?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "What is the schedule for cmpe 273?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "what topic will be covered in week ?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "what topic will be covered in week 1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "what will be covered in week 1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        }
+      ],
+      "description": null
+    },
   ],
   "workspace_id": "60141f9f-b28b-4012-91b3-43213f2d439b",
   "counterexamples": []
