@@ -365,6 +365,119 @@
       ],
       "description": null
     },
+    ],
+  "updated": "2017-05-05T21:00:27.022Z",
+  "entities": [
+    {
+      "entity": "courses",
+      "values": [
+        {
+          "value": "202",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T15:06:16.944Z",
+          "metadata": null,
+          "synonyms": [
+            "202 course",
+            "202 - Software Systems Engineering",
+            "Paul's class",
+            "Software Systems Engineering"
+          ]
+        },
+        {
+          "value": "272",
+          "created": "2017-05-04T23:30:58.091Z",
+          "updated": "2017-05-04T23:30:58.091Z",
+          "metadata": null,
+          "synonyms": [
+            "272 course",
+            "272 - Ent SW Platforms",
+            "Ent SW Platforms",
+            "Rakesh Ranjan's class"
+          ]
+        },
+        {
+          "value": "273",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T15:06:26.617Z",
+          "metadata": null,
+          "synonyms": [
+            "273 course",
+            "273 - Enterprise Distributed Systems",
+            "Enterprise Distributed Systems",
+            "Sithu's Class"
+          ]
+        },
+        {
+          "value": "281",
+          "created": "2017-05-04T23:48:53.818Z",
+          "updated": "2017-05-05T02:51:46.371Z",
+          "metadata": null,
+          "synonyms": [
+            "281 course",
+            "Cloud Technologies",
+            "Gao's Class"
+          ]
+        }
+      ],
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-05T02:51:46.371Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "exams",
+      "values": [
+        {
+          "value": "Final exam",
+          "created": "2017-05-04T14:42:36.493Z",
+          "updated": "2017-05-04T15:03:54.015Z",
+          "metadata": null,
+          "synonyms": [
+            "final",
+            "finals",
+            "last exam"
+          ]
+        },
+        {
+          "value": "mid term",
+          "created": "2017-05-04T14:42:44.020Z",
+          "updated": "2017-05-04T15:25:58.725Z",
+          "metadata": null,
+          "synonyms": [
+            "midterm",
+            "midterms",
+            "mid terms"
+          ]
+        }
+      ],
+      "created": "2017-05-04T14:42:36.493Z",
+      "updated": "2017-05-04T15:25:58.725Z",
+      "metadata": null,
+      "description": null
+    },
+    {
+      "entity": "section",
+      "values": [
+        {
+          "value": "1",
+          "created": "2017-05-05T00:00:49.697Z",
+          "updated": "2017-05-05T00:00:49.697Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "2",
+          "created": "2017-05-05T00:00:49.697Z",
+          "updated": "2017-05-05T00:00:49.697Z",
+          "metadata": null,
+          "synonyms": []
+        }
+      ],
+      "created": "2017-05-05T00:00:49.697Z",
+      "updated": "2017-05-05T00:00:49.697Z",
+      "metadata": null,
+      "description": null
+    },
     {
       "entity": "Professors",
       "values": [
