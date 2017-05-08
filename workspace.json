@@ -538,8 +538,180 @@
       "metadata": null,
       "description": null,
       "fuzzy_match": true
-    },   
-  ],
+    }, 
+    {
+      "entity": "weeklyschedule",
+      "values": [
+        {
+          "value": "week1",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "first week",
+            "week 1",
+            "week one"
+          ]
+        },
+        {
+          "value": "week10",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "week11",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "week12",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "week13",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": []
+        },
+        {
+          "value": "week14",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "fourteenth week",
+            "week 14",
+            "week fourteen"
+          ]
+        },
+        {
+          "value": "week15",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "fifteenth week",
+            "week 15",
+            "week fifteen"
+          ]
+        },
+        {
+          "value": "week16",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 16",
+            "week sixteen"
+          ]
+        },
+        {
+          "value": "week17",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 17",
+            "week seventeen"
+          ]
+        },
+        {
+          "value": "week2",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "second week",
+            "week 2",
+            "week two"
+          ]
+        },
+        {
+          "value": "week3",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "third week",
+            "week 3",
+            "week three"
+          ]
+        },
+        {
+          "value": "week4",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 4"
+          ]
+        },
+        {
+          "value": "week5",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 5",
+            "week five"
+          ]
+        },
+        {
+          "value": "week6",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 6",
+            "week six"
+          ]
+        },
+        {
+          "value": "week7",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 7",
+            "Week seven"
+          ]
+        },
+        {
+          "value": "week8",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 8",
+            "week eight"
+          ]
+        },
+        {
+          "value": "week9",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z",
+          "metadata": null,
+          "synonyms": [
+            "week 9",
+            "week nine"
+          ]
+        }
+      ],
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "metadata": null,
+      "description": null,
+      "fuzzy_match": false
+    }
+  ],  
   "workspace_id": "60141f9f-b28b-4012-91b3-43213f2d439b",
   "counterexamples": []
 }
