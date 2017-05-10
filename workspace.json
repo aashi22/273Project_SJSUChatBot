@@ -9,7 +9,39 @@
       "examples": [],
       "description": null
     },
-   
+    {
+      "intent": "Class_Timing",
+      "created": "2017-05-04T23:14:13.745Z",
+      "updated": "2017-05-05T07:44:01.463Z",
+      "examples": [
+        {
+          "text": "class timing for CMPE 202?",
+          "created": "2017-05-04T23:24:27.524Z",
+          "updated": "2017-05-04T23:24:27.524Z"
+        },
+        {
+          "text": "class timing for cmpe 272?",
+          "created": "2017-05-04T23:14:49.404Z",
+          "updated": "2017-05-05T07:44:01.463Z"
+        },
+        {
+          "text": "Class timing for cmpe 273 section 1?",
+          "created": "2017-05-04T23:16:04.827Z",
+          "updated": "2017-05-04T23:16:52.350Z"
+        },
+        {
+          "text": "Class timing for cmpe 281?",
+          "created": "2017-05-04T23:22:53.660Z",
+          "updated": "2017-05-04T23:22:53.660Z"
+        },
+        {
+          "text": "Class timing for Enterprise Distributed Systems?",
+          "created": "2017-05-04T23:22:23.509Z",
+          "updated": "2017-05-04T23:26:58.220Z"
+        }
+      ],
+      "description": null
+    },
     {
       "intent": "Email_ID",
       "created": "2017-05-04T23:44:55.021Z",
@@ -58,7 +90,82 @@
       ],
       "description": null
     },
- 
+    {
+      "intent": "Exams",
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T15:05:59.093Z",
+      "examples": [
+        {
+          "text": "Final exam for cmpe273 section1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "mid term for 272",
+          "created": "2017-05-04T15:05:59.093Z",
+          "updated": "2017-05-04T15:05:59.093Z"
+        },
+        {
+          "text": "when is cmpe273 section 1 final exam?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "When is the exam",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "When is the final exam ?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "When is the final exam for cmpe 202 ?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        },
+        {
+          "text": "When is the midterm for cmpe 273 section1?",
+          "created": "2017-05-04T14:41:21.034Z",
+          "updated": "2017-05-04T14:41:21.034Z"
+        }
+      ],
+      "description": null
+    },
+    {
+      "intent": "GradingPolicy",
+      "created": "2017-05-04T23:07:46.508Z",
+      "updated": "2017-05-04T23:12:53.862Z",
+      "examples": [
+        {
+          "text": "grading policy for 273?",
+          "created": "2017-05-04T23:12:12.626Z",
+          "updated": "2017-05-04T23:12:12.626Z"
+        },
+        {
+          "text": "what is grading policy followed by 202 Paul?",
+          "created": "2017-05-04T23:12:53.862Z",
+          "updated": "2017-05-04T23:12:53.862Z"
+        },
+        {
+          "text": "What is the grading policy",
+          "created": "2017-05-04T23:07:46.508Z",
+          "updated": "2017-05-04T23:07:46.508Z"
+        },
+        {
+          "text": "What is the grading policy for 202?",
+          "created": "2017-05-04T23:07:46.508Z",
+          "updated": "2017-05-04T23:09:23.529Z"
+        },
+        {
+          "text": "what is the grading policy for cmpe273?",
+          "created": "2017-05-04T23:07:46.508Z",
+          "updated": "2017-05-04T23:07:46.508Z"
+        }
+      ],
+      "description": null
+    },
     {
       "intent": "greetings",
       "created": "2017-05-04T14:41:21.034Z",
@@ -116,51 +223,18 @@
         }
       ],
       "description": null
-   },
-    {
-      "intent": "Class_Timing",
-      "created": "2017-05-04T23:14:13.745Z",
-      "updated": "2017-05-05T07:44:01.463Z",
-      "examples": [
-        {
-          "text": "class timing for CMPE 202?",
-          "created": "2017-05-04T23:24:27.524Z",
-          "updated": "2017-05-04T23:24:27.524Z"
-        },
-        {
-          "text": "class timing for cmpe 272?",
-          "created": "2017-05-04T23:14:49.404Z",
-          "updated": "2017-05-05T07:44:01.463Z"
-        },
-        {
-          "text": "Class timing for cmpe 273 section 1?",
-          "created": "2017-05-04T23:16:04.827Z",
-          "updated": "2017-05-04T23:16:52.350Z"
-        },
-        {
-          "text": "Class timing for cmpe 281?",
-          "created": "2017-05-04T23:22:53.660Z",
-          "updated": "2017-05-04T23:22:53.660Z"
-        },
-        {
-          "text": "Class timing for Enterprise Distributed Systems?",
-          "created": "2017-05-04T23:22:23.509Z",
-          "updated": "2017-05-04T23:26:58.220Z"
-        }
-      ],
-      "description": null
     },
-     {
+    {
       "intent": "Instructor",
       "created": "2017-05-04T14:41:21.034Z",
       "updated": "2017-05-05T03:41:12.304Z",
       "examples": [
-      {
+        {
           "text": "Instructor for CMPE 273?",
           "created": "2017-05-04T14:41:21.034Z",
           "updated": "2017-05-04T14:41:21.034Z"
-      },
-      {
+        },
+        {
           "text": "Professor of 273?",
           "created": "2017-05-05T03:41:12.304Z",
           "updated": "2017-05-05T03:41:12.304Z"
@@ -246,7 +320,7 @@
       ],
       "description": null
     },
-        {
+    {
       "intent": "Project",
       "created": "2017-05-04T14:41:21.034Z",
       "updated": "2017-05-04T14:41:21.034Z",
@@ -317,7 +391,7 @@
       ],
       "description": null
     },
-      {
+    {
       "intent": "Textbooks",
       "created": "2017-05-04T14:41:21.034Z",
       "updated": "2017-05-05T20:58:23.586Z",
@@ -364,8 +438,8 @@
         }
       ],
       "description": null
-    },
-    ],
+    }
+  ],
   "updated": "2017-05-05T21:00:27.022Z",
   "entities": [
     {
@@ -502,7 +576,7 @@
             "teacher 202"
           ]
         },
-         {
+        {
           "value": "Rakesh Ranjan",
           "created": "2017-05-05T02:16:34.435Z",
           "updated": "2017-05-05T20:15:38.838Z",
@@ -538,7 +612,7 @@
       "metadata": null,
       "description": null,
       "fuzzy_match": true
-    }, 
+    },
     {
       "entity": "weeklyschedule",
       "values": [
@@ -711,7 +785,983 @@
       "description": null,
       "fuzzy_match": false
     }
-  ],  
+  ],
+  "language": "en",
+  "metadata": null,
+  "description": "",
+  "dialog_nodes": [
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "Class_timing Node",
+      "context": null,
+      "created": "2017-05-05T07:46:48.321Z",
+      "updated": "2017-05-05T07:55:49.555Z",
+      "metadata": null,
+      "conditions": "@courses || @Professors",
+      "description": null,
+      "dialog_node": "Class Timings",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "Email ID Node",
+      "context": null,
+      "created": "2017-05-05T02:20:24.175Z",
+      "updated": "2017-05-05T20:17:56.982Z",
+      "metadata": null,
+      "conditions": "@Professors || @courses",
+      "description": null,
+      "dialog_node": "Email Ids of Professors",
+      "previous_sibling": "node_23_1493950877443"
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "Exams Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T15:07:25.110Z",
+      "metadata": null,
+      "conditions": "@exams:(mid term)",
+      "description": null,
+      "dialog_node": "Midterm node",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "Exams Node",
+      "context": null,
+      "created": "2017-05-04T15:15:31.013Z",
+      "updated": "2017-05-05T01:13:07.251Z",
+      "metadata": null,
+      "conditions": "@exams:(Final exam)",
+      "description": null,
+      "dialog_node": "Final Exam Node",
+      "previous_sibling": "Midterm node"
+    },
+    {
+      "go_to": null,
+      "output": {},
+      "parent": "TextBooks Node",
+      "context": null,
+      "created": "2017-05-04T14:44:47.940Z",
+      "updated": "2017-05-05T20:54:30.141Z",
+      "metadata": null,
+      "conditions": "@courses",
+      "description": null,
+      "dialog_node": "Books",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "CMPE @courses is for Computer Engineering and Software Engineering Majors only. Requires Instructor Consent. Students who do not provide documentation of having satisfied  the class prerequisite and co-requisite requirements (if any)  by the second class meeting will be dropped from the class."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Prerequisite Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-05T03:34:40.369Z",
+      "metadata": null,
+      "conditions": "@courses:202",
+      "description": null,
+      "dialog_node": "202 Prerequisite",
+      "previous_sibling": "273 PreRequisite"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I can help you with your queries for CMPE subjects  :)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T23:49:39.488Z",
+      "metadata": null,
+      "conditions": "#greetings",
+      "description": null,
+      "dialog_node": "Greetings Node",
+      "previous_sibling": "TextBooks Node"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Hi, I am SJSUBot."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "metadata": null,
+      "conditions": "conversation_start",
+      "description": null,
+      "dialog_node": "Conversation Start",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "I am Sorry, I don't understand you."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "metadata": null,
+      "conditions": "anything_else",
+      "description": null,
+      "dialog_node": "node_13_1493848538872",
+      "previous_sibling": "Email ID Node"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Most of the courses are really thorough and require students to be very attentive in class."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Schedule Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:47:45.059Z",
+      "metadata": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "Else Node",
+      "previous_sibling": "node_5_1493909776670"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Paul Nguyen is the instructor for CMPE 202 section 2."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Instructor Node",
+      "context": null,
+      "created": "2017-05-04T23:56:12.269Z",
+      "updated": "2017-05-05T03:48:37.379Z",
+      "metadata": null,
+      "conditions": "@courses:202",
+      "description": null,
+      "dialog_node": "202 Instructor",
+      "previous_sibling": "273 Instructor"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Paul Nguyen is the instructor for CMPE @courses."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Instructor Node",
+      "context": null,
+      "created": "2017-05-05T03:48:41.603Z",
+      "updated": "2017-05-05T03:49:24.732Z",
+      "metadata": null,
+      "conditions": "@courses:281",
+      "description": null,
+      "dialog_node": "281 Instructor",
+      "previous_sibling": "202 Instructor"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Please mention the subject's name whose Prerequisite you want to know.(Eg . Prerequisite of <Subject Name>)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Prerequisite Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-05T02:47:58.755Z",
+      "metadata": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "Else",
+      "previous_sibling": "272 PreRequisite"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Prerequisite of Cloud Technologies course is completion of CMPE 272 or if you get lucky, instructor's consent."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Prerequisite Node",
+      "context": null,
+      "created": "2017-05-05T02:05:13.692Z",
+      "updated": "2017-05-05T03:37:01.427Z",
+      "metadata": null,
+      "conditions": "@courses:281",
+      "description": null,
+      "dialog_node": "281 Prerequisite",
+      "previous_sibling": "202 Prerequisite"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Prerequisite of Enterprise SW Platforms is being a Classified student or having Instructor’s consent."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Prerequisite Node",
+      "context": null,
+      "created": "2017-05-05T02:32:59.849Z",
+      "updated": "2017-05-05T03:39:27.829Z",
+      "metadata": null,
+      "conditions": "@courses:272",
+      "description": null,
+      "dialog_node": "272 PreRequisite",
+      "previous_sibling": "281 Prerequisite"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Prof. Sithu Aung is the Instructor for CMPE273 section 1."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Instructor Node",
+      "context": null,
+      "created": "2017-05-04T14:44:17.875Z",
+      "updated": "2017-05-05T03:44:37.202Z",
+      "metadata": null,
+      "conditions": "@courses:273",
+      "description": null,
+      "dialog_node": "273 Instructor",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Rakesh Ranjan is the instructor for CMPE @courses."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Instructor Node",
+      "context": null,
+      "created": "2017-05-05T03:46:42.920Z",
+      "updated": "2017-05-05T03:48:06.867Z",
+      "metadata": null,
+      "conditions": "@courses:272",
+      "description": null,
+      "dialog_node": "272 Instructor",
+      "previous_sibling": "281 Instructor"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "The Enterprise Distributed Systems course expects you to be strong in OOPS or any functional programming language."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Prerequisite Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-05T03:31:08.141Z",
+      "metadata": null,
+      "conditions": "@courses:273",
+      "description": null,
+      "dialog_node": "273 PreRequisite",
+      "previous_sibling": null
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "There are two exams as part of this course. 1 Mid term and 1 Final."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Exams Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "metadata": null,
+      "conditions": "true",
+      "description": null,
+      "dialog_node": "node_1_1493850647071",
+      "previous_sibling": "Final Exam Node"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Weekly schedule for 202 here"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Schedule Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:56:16.923Z",
+      "metadata": null,
+      "conditions": "@courses:202",
+      "description": null,
+      "dialog_node": "node_5_1493909776670",
+      "previous_sibling": "node_4_1493909294937"
+    },
+    {
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Weekly schedule for 273 is here"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Schedule Node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:48:15.150Z",
+      "metadata": null,
+      "conditions": "@courses:273",
+      "description": null,
+      "dialog_node": "node_4_1493909294937",
+      "previous_sibling": null
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "273 Instructor"
+      },
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:44:35.745Z",
+      "metadata": null,
+      "conditions": "#Instructor",
+      "description": null,
+      "dialog_node": "Instructor Node",
+      "previous_sibling": "Prerequisite Node"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "273 PreRequisite"
+      },
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "metadata": null,
+      "conditions": "#Prerequisites",
+      "description": null,
+      "dialog_node": "Prerequisite Node",
+      "previous_sibling": "Conversation Start"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "Books"
+      },
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:45:02.130Z",
+      "metadata": null,
+      "conditions": "#Textbooks",
+      "description": null,
+      "dialog_node": "TextBooks Node",
+      "previous_sibling": "Instructor Node"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "Class Timings"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-05-05T07:42:21.964Z",
+      "updated": "2017-05-05T19:33:18.644Z",
+      "metadata": null,
+      "conditions": "#Class_Timing",
+      "description": null,
+      "dialog_node": "Class_timing Node",
+      "previous_sibling": "Exams Node"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "Email Ids of Professors"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-05-05T02:12:56.984Z",
+      "updated": "2017-05-05T03:23:58.481Z",
+      "metadata": null,
+      "conditions": "#Email_ID",
+      "description": null,
+      "dialog_node": "Email ID Node",
+      "previous_sibling": "Class_timing Node"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "Midterm node"
+      },
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "metadata": null,
+      "conditions": "#Exams",
+      "description": null,
+      "dialog_node": "Exams Node",
+      "previous_sibling": "Schedule Node"
+    },
+    {
+      "go_to": {
+        "return": null,
+        "selector": "condition",
+        "dialog_node": "node_4_1493909294937"
+      },
+      "output": {},
+      "parent": null,
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:48:44.553Z",
+      "metadata": null,
+      "conditions": "#schedule",
+      "description": null,
+      "dialog_node": "Schedule Node",
+      "previous_sibling": "Greetings Node"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Email ID Node",
+      "context": null,
+      "created": "2017-05-05T02:21:16.135Z",
+      "updated": "2017-05-05T02:22:12.599Z",
+      "metadata": null,
+      "conditions": "",
+      "description": null,
+      "dialog_node": "node_23_1493950877443",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Class timing of Prof. Paul is every Saturdays, 12:00 pm – 2:45 pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Class Timings",
+      "context": null,
+      "created": "2017-05-05T07:49:38.594Z",
+      "updated": "2017-05-05T20:22:55.196Z",
+      "metadata": null,
+      "conditions": "@courses:202 && @Professors:(Paul Nguyen)",
+      "description": null,
+      "dialog_node": "node_35_1493970579542",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Class timing of Prof. Paul is every Saturdays, 9:00 am – 11:45 am."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Class Timings",
+      "context": null,
+      "created": "2017-05-05T07:51:49.386Z",
+      "updated": "2017-05-05T07:56:30.173Z",
+      "metadata": null,
+      "conditions": " @courses:281 && @Professors:(Paul Nguyen)",
+      "description": null,
+      "dialog_node": "node_38_1493970710234",
+      "previous_sibling": "node_37_1493970651072"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Class timing of Prof. Rakesh Ranjan is Mondays, 6 pm – 8:45 pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Class Timings",
+      "context": null,
+      "created": "2017-05-05T07:49:57.783Z",
+      "updated": "2017-05-05T20:23:04.075Z",
+      "metadata": null,
+      "conditions": "@courses:272 || @Professors:(Rakesh Ranjan)",
+      "description": null,
+      "dialog_node": "node_36_1493970598745",
+      "previous_sibling": "node_35_1493970579542"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Class timing of Prof. Sithu Aung is Wednesdays, 6:00pm–8:45pm"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Class Timings",
+      "context": null,
+      "created": "2017-05-05T07:50:50.228Z",
+      "updated": "2017-05-05T20:23:22.785Z",
+      "metadata": null,
+      "conditions": "@courses:273 || @Professors:(Sithu Aung)",
+      "description": null,
+      "dialog_node": "node_37_1493970651072",
+      "previous_sibling": "node_36_1493970598745"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "CMPE273 section 1 midterm exam was held on April 5th at 6pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Midterm node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T14:41:21.034Z",
+      "metadata": null,
+      "conditions": " @courses:273",
+      "description": null,
+      "dialog_node": "node_8_1493849536596",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Don't test me.. Please provide me with a course and its right professor."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Class Timings",
+      "context": null,
+      "created": "2017-05-05T07:57:35.929Z",
+      "updated": "2017-05-05T19:55:03.464Z",
+      "metadata": null,
+      "conditions": " true",
+      "description": null,
+      "dialog_node": "node_40_1493971056668",
+      "previous_sibling": "node_38_1493970710234"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Email ID of prof. @Professors is paul.nguyen\\@sjsu.edu"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Email Ids of Professors",
+      "context": null,
+      "created": "2017-05-05T19:56:56.438Z",
+      "updated": "2017-05-05T20:18:35.295Z",
+      "metadata": null,
+      "conditions": "@Professors:(Paul Nguyen) || @courses:202 || @courses:281",
+      "description": null,
+      "dialog_node": "node_41_1494014217149",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Email ID of Prof. @Professors is Rakesh.ranjan\\@sjsu.edu"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Email Ids of Professors",
+      "context": null,
+      "created": "2017-05-05T19:59:05.576Z",
+      "updated": "2017-05-05T20:14:33.571Z",
+      "metadata": null,
+      "conditions": "@Professors:(Rakesh Ranjan) || @courses:272",
+      "description": null,
+      "dialog_node": "node_42_1494014346466",
+      "previous_sibling": "node_41_1494014217149"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Email ID of Prof. @Professors is Sithu.aung\\@sjsu.edu"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Email Ids of Professors",
+      "context": null,
+      "created": "2017-05-05T20:17:58.935Z",
+      "updated": "2017-05-05T20:18:21.013Z",
+      "metadata": null,
+      "conditions": "@Professors:(Sithu Aung) || @courses:273",
+      "description": null,
+      "dialog_node": "node_43_1494015479809",
+      "previous_sibling": "node_42_1494014346466"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Final exam for 273 will be held on"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Final Exam Node",
+      "context": null,
+      "created": "2017-05-04T15:16:35.392Z",
+      "updated": "2017-05-04T15:23:25.413Z",
+      "metadata": null,
+      "conditions": "@courses:273",
+      "description": null,
+      "dialog_node": "node_8_1493910995207",
+      "previous_sibling": "node_7_1493910970989"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Final for 202 will be held on this date."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Final Exam Node",
+      "context": null,
+      "created": "2017-05-04T15:16:11.547Z",
+      "updated": "2017-05-04T15:23:22.758Z",
+      "metadata": null,
+      "conditions": "@courses:202",
+      "description": null,
+      "dialog_node": "node_7_1493910970989",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Finals are very important exams. You better be prepared for them :)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Final Exam Node",
+      "context": null,
+      "created": "2017-05-04T15:20:59.510Z",
+      "updated": "2017-05-04T15:23:19.091Z",
+      "metadata": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_9_1493911259077",
+      "previous_sibling": "node_8_1493910995207"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Midterm exam was held on 1st April at 12pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Midterm node",
+      "context": null,
+      "created": "2017-05-04T14:41:21.034Z",
+      "updated": "2017-05-04T15:12:02.553Z",
+      "metadata": null,
+      "conditions": " @courses:202",
+      "description": null,
+      "dialog_node": "node_22_1493900015801",
+      "previous_sibling": "node_8_1493849536596"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Mid terms mean you are halfway through the semester.. :) A bit more effort and the semester will be done. Race to the Finish my Friend."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Midterm node",
+      "context": null,
+      "created": "2017-05-04T15:24:35.288Z",
+      "updated": "2017-05-04T15:25:24.236Z",
+      "metadata": null,
+      "conditions": null,
+      "description": null,
+      "dialog_node": "node_10_1493911475073",
+      "previous_sibling": "node_22_1493900015801"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Please rephrase your question and try again."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Email Ids of Professors",
+      "context": null,
+      "created": "2017-05-05T20:18:44.928Z",
+      "updated": "2017-05-05T20:21:39.735Z",
+      "metadata": null,
+      "conditions": " true",
+      "description": null,
+      "dialog_node": "node_44_1494015525830",
+      "previous_sibling": "node_43_1494015479809"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Recommended Books for CMPE 202 :  1. Fowler, Martin. UML Distilled: A Brief Guide to the Standard Object Modeling Language.  Addison-Wesley, 2004.  2. Gamma, Erich. Design Patterns: Elements of Reusable Object-oriented Software. Addison-Wesley, 1995.  3. Hundermark, Peter.  Do Better Scrum. 4. Kniberg, H & Skarin M.  Kanban and Scrum."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Books",
+      "context": null,
+      "created": "2017-05-05T20:34:05.410Z",
+      "updated": "2017-05-05T20:52:54.587Z",
+      "metadata": null,
+      "conditions": " @courses:202",
+      "description": null,
+      "dialog_node": "node_46_1494016446313",
+      "previous_sibling": "node_45_1494016400445"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Recommended books for CMPE273 section 1: 1.Web Services, by Gustavo Alonso, Fabio Casati, Harumi Kuno and Vijay Machiraju (2003) 2.Enterprise Integration Patterns, by Gregor Hohpe and Bobby Woolf (2003) 3.Restful Web Services, by Leonard Richardson, Sam Ruby and David Hansson (2007)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Books",
+      "context": null,
+      "created": "2017-05-05T20:33:19.531Z",
+      "updated": "2017-05-05T20:33:24.571Z",
+      "metadata": null,
+      "conditions": " @courses:273",
+      "description": null,
+      "dialog_node": "node_45_1494016400445",
+      "previous_sibling": null
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Recommended books for CMPE @courses are 1. Limoncelli,Thomas A.,Strata R.Chalup,and Christina J.Hogan. The Practice of Cloud System Administration:Designing and Operating Large Distributed Systems. 2. Sullivan,Dan. NoSQL for\tMere Mortals. 3. Redmond,Eric,Jim R.Wilson,and Jacquelyn Carter.Seven Databases in Seven Weeks:A Guide to Modern Databases and the NoSQL Movement."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Books",
+      "context": null,
+      "created": "2017-05-05T20:37:01.556Z",
+      "updated": "2017-05-05T20:54:23.570Z",
+      "metadata": null,
+      "conditions": " @courses:281",
+      "description": null,
+      "dialog_node": "node_48_1494016622434",
+      "previous_sibling": "node_47_1494016489704"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Recommended Textbook for CMPE @courses is Enterprise Software Platform by Rakesh Ranjan."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Books",
+      "context": null,
+      "created": "2017-05-05T20:34:48.937Z",
+      "updated": "2017-05-05T20:53:46.829Z",
+      "metadata": null,
+      "conditions": " @courses:272",
+      "description": null,
+      "dialog_node": "node_47_1494016489704",
+      "previous_sibling": "node_46_1494016446313"
+    },
+    {
+      "type": "response_condition",
+      "go_to": null,
+      "output": {
+        "text": {
+          "values": [
+            "Text books are boring."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Books",
+      "context": null,
+      "created": "2017-05-05T20:55:33.063Z",
+      "updated": "2017-05-05T20:56:40.007Z",
+      "metadata": null,
+      "conditions": " true",
+      "description": null,
+      "dialog_node": "node_49_1494017733972",
+      "previous_sibling": "node_48_1494016622434"
+    }
+  ],
   "workspace_id": "60141f9f-b28b-4012-91b3-43213f2d439b",
   "counterexamples": []
 }
