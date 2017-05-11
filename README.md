@@ -1,6 +1,6 @@
 # 273Project_SJSUChatBot
 
-Before you begin:
+## Before you begin:
 
 Create a Bluemix account
 Sign up in Bluemix, or use an existing account. Your account must have available space for at least 1 app and 1 service.
@@ -10,7 +10,7 @@ Installation
    $ npm install botkit-middleware-watson --save
 
 
-Bot setup:
+## Bot setup:
 
 Step1: 
 ##Acquire Watson Conversation credentials
@@ -51,13 +51,13 @@ Finally, make your bot listen to incoming messages and respond with Watson Conve
 slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention'], function(bot, message) {
     bot.reply(message, message.watsonData.output.text.join('\n'));
 });
+
 The middleware attaches the watsonData object to message. This contains the text response from Conversation.
 
-Middleware Functions
-
+## Middleware Functions
 The watsonMiddleware object provides some useful functions which can be used for customizing the question-answering pipeline.
 
-receive
+### receive
 
 The receive function is the one which gets triggered on incoming bot messages. One needs to bind it to the Botkit's receive middleware in order for it to work.
 
@@ -70,7 +70,7 @@ slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention'], f
 });
 Note: The receive function is triggered on every message. Please consult the Botkit's guide to the receive middleware to know more about it.
 
-interpret
+### interpret
 
 The interpret() function works very similarly to the receive function but unlike the receive function,
 
@@ -84,7 +84,8 @@ slackController.hears(['.*'], ['direct_message'], function(bot, message) {
       bot.reply(message, message.watsonData.output.text.join('\n'));
   });
 });
-hear
+
+### hear
 
 The Watson middleware also includes a hear() function which provides a mechanism to developers to fire handler functions based on the most likely intent of the user. This allows a developer to create handler functions for specific intents in addition to using the data provided by Watson to power the conversation.
 
