@@ -61,19 +61,6 @@ The middleware attaches the watsonData object to message. This contains the text
 ## Middleware Functions
 The watsonMiddleware object provides some useful functions which can be used for customizing the question-answering pipeline.
 
-### receive
-
-The receive function is the one which gets triggered on incoming bot messages. One needs to bind it to the Botkit's receive middleware in order for it to work.
-
-// Connect to Watson middleware
-slackController.middleware.receive.use(middleware.receive);
-Then simply respond to messages as follows:
-
-slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention'], function(bot, message) {
-  bot.reply(message, message.watsonData.output.text.join('\n'));
-});
-Note: The receive function is triggered on every message. Please consult the Botkit's guide to the receive middleware to know more about it.
-
 ### interpret
 
 The interpret() function works very similarly to the receive function but unlike the receive function,
