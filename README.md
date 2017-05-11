@@ -51,7 +51,8 @@ slackBot.startRTM();
 
 Finally, make your bot listen to incoming messages and respond with Watson Conversation:
 
-slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention'], function(bot, message) {
+slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention'], function(bot, message) 
+{
     bot.reply(message, message.watsonData.output.text.join('\n'));
 });
 
@@ -81,8 +82,10 @@ it is not mapped to a Botkit function so doesn't need to be added as a middlewar
 doesn't get triggered on all events
 The interpret function only gets triggered when an event is heard by the controller. For example, one might want your bot to only respond to direct messages using Conversation. In such scenarios, one would use the interpret function as follows:
 
-slackController.hears(['.*'], ['direct_message'], function(bot, message) {
-  middleware.interpret(bot, message, function(err) {
+slackController.hears(['.*'], ['direct_message'], function(bot, message) 
+{
+  middleware.interpret(bot, message, function(err) 
+  {
     if (!err)
       bot.reply(message, message.watsonData.output.text.join('\n'));
   });
@@ -96,7 +99,8 @@ The hear() function can be used on individual handler functions, or can be used 
 
 Used on an individual handler:
 
-slackController.hears(['hello'], ['direct_message', 'direct_mention', 'mention'], watsonMiddleware.hear, function(bot, message) {
+slackController.hears(['hello'], ['direct_message', 'direct_mention', 'mention'], watsonMiddleware.hear, function(bot, message) 
+{
 
    bot.reply(message, message.watsonData.output.text.join('\n'));
 
@@ -108,7 +112,8 @@ Used globally:
 
 slackController.changeEars(watsonMiddleware.hear);
 
-slackController.hears(['hello'], ['direct_message', 'direct_mention', 'mention'], function(bot, message) {
+slackController.hears(['hello'], ['direct_message', 'direct_mention', 'mention'], function(bot, message) 
+{
 
    bot.reply(message, message.watsonData.output.text.join('\n'));
 
