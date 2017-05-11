@@ -13,20 +13,20 @@ Installation
 ## Bot setup:
 
 Step1: 
-##Acquire Watson Conversation credentials
+### Acquire Watson Conversation credentials
 
 The middleware needs you to provide the username, password, and workspace_id of your Watson Conversation chat bot.
 
 Step2:
-##Acquire channel credentials
+### Acquire channel credentials
 You need a Slack token for your Slack bot to talk to Conversation.
 
 
 Step 3:
+### Create Slack Controller using Botkit: 
+
 In your app, add the following lines to create your Slack controller using Botkit:
-
 var slackController = Botkit.slackbot();
-
 
 Spawn a Slack bot using the controller:
 var slackBot = slackController.spawn({
@@ -42,10 +42,13 @@ var watsonMiddleware = require('botkit-middleware-watson')({
   version_date: '2016-09-20',
   minimum_confidence: 0.50, // (Optional) Default is 0.75
 });
+
 Tell your Slackbot to use the watsonMiddleware for incoming messages:
 
 slackController.middleware.receive.use(watsonMiddleware.receive);
 slackBot.startRTM();
+
+
 Finally, make your bot listen to incoming messages and respond with Watson Conversation:
 
 slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention'], function(bot, message) {
